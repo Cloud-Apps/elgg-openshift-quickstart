@@ -37,6 +37,7 @@ When the installation asks you for your data directory, use the same information
 	/var/lib/libra/A BUNCH OF RANDOM CHARACTERS/elgg/runtime/repo/php/
 
 Remove the /runtime/repo/php and add data so it looks like:
+
 	/var/lib/libra/A BUNCH OF RANDOM CHARACTERS/elgg/data
 
 
