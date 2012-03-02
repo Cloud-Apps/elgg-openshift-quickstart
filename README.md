@@ -11,11 +11,11 @@ Create an account at http://openshift.redhat.com/
 
 Create a PHP application
 
-	rhc-create-app -a elgg -t php-5.3 -l $USERNAME
+	rhc app create -a elgg -t php-5.3
 
 Add mysql support to your application
     
-	rhc-ctl-app -a elgg -e add-mysql-5.1 -l $USERNAME
+	rhc app cartridge add -a elgg -c mysql-5.1
 Make a note of the username, password, and host name as you will need to use these to complete the Piwik installation on OpenShift
 
 Add this upstream elgg quickstart repo
