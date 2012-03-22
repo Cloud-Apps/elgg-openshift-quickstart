@@ -34,11 +34,11 @@ That's it for the code, you can now install your application at:
 
 When the installation asks you for your data directory, use the same information as for the Elgg installation which should look something like this:
 
-	/var/lib/libra/A BUNCH OF RANDOM CHARACTERS/elgg/runtime/repo/php/
+	/var/lib/stickshift/A BUNCH OF RANDOM CHARACTERS/elgg/runtime/repo/php/
 
 Remove the /runtime/repo/php and add data so it looks like:
 
-	/var/lib/libra/A BUNCH OF RANDOM CHARACTERS/elgg/data
+	/var/lib/stickshift/A BUNCH OF RANDOM CHARACTERS/elgg/data
 
 
 
